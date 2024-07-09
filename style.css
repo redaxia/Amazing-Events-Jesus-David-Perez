@@ -1,0 +1,133 @@
+/* Principal */
+.navbar-brand>img{
+    width: 9rem;
+
+}
+.navbar-nav{
+    width: 100%;
+}
+.navbar-nav a{
+    margin-right: 1rem;
+}
+.nav-link{
+    transition: all .3s;
+}
+.nav-link:hover{
+    outline: 1px solid black;
+    transform: translateY(-3px);
+}
+.elegido{
+    color: rgb(24, 190, 60);
+}
+.carousel-item img{
+    height: 30vh;
+    filter: brightness(0.7)
+}
+.carousel-caption h5,p,.colorW{
+    color: aliceblue;
+}
+.carousel-control-prev,.carousel-control-next{
+    background-color: aliceblue;
+    width: 4rem;
+}
+.form-check-P{
+    gap: 40px;
+    padding-top: 1rem;
+    margin-left: 5px;
+}
+.form-check>form{
+    margin: 1rem;
+}
+.cartas{
+    padding: 10px;
+    gap: 10px;
+}
+.card-text{
+    color: rgb(214, 128, 15);
+    height: 65px;
+}
+.anim{
+    transition: all .3s;
+    width: 18rem;
+}
+.anim:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 100px -30px rgba(15, 14, 14, 0.496);
+    border: 1px solid #47c037;
+}
+.footer-card{
+    padding: 20px;
+}
+.formulario{
+    width: 100%;
+    padding: 4rem;
+
+}
+.formulario>div{
+    max-width: 55vw;
+}
+.enviar{
+    max-width: 100px;
+}
+
+.text{
+    margin-right: 30px;
+}
+.caja-flex-card{
+
+    width: 50%;
+    min-width: 300px;
+    margin: 10%;
+    padding: 20px;
+    background-color: rgb(239, 239, 239);
+    border-radius: 10px;
+    justify-content: center;
+}
+.cartasImg{
+    width: 25vw;
+    min-width: 200px;
+    min-height: 100px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.infoEvents{
+    width: 200px;
+    padding: 1rem;
+    background-color: rgb(241, 36, 21);
+    border-radius: 20px;
+}
+.infoEvents h2,.carta-titulo{
+    width: 100%;
+    color: aliceblue;
+}
+.cajaF{
+    display: flex;
+    justify-content: center;
+}
+.botones-footer img{
+    width: 40px;
+    margin-right: 10px;
+}
+.valor{
+    color: rgb(235, 72, 172);
+}
+.card-img-top{
+    height: 150px;
+}
+table{
+    width: 100%;
+}
+td,th{
+    border: 2px solid brown;
+    padding: 5px;
+}
+th{
+    background-color: rgb(151, 65, 65);
+    color: white;
+}
+td{
+    height: 35px;
+}
+footer h3{
+    color: brown;
+}
